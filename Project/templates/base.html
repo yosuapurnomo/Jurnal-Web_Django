@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{title}}</title>
+	{% include "include/styles.html" %}
+	{% block app_css %}
+		<link rel="stylesheet" type="text/css" href="{% static "css/styles.css" %}">
+	{% endblock app_css %}
+</head>
+<body>
+	{% include "include/navBar.html" %}
+
+	<div class="jumbotron jumbotron-fluid">
+	  {% block header %}
+	  {% endblock header %}
+	</div>
+
+	<dir class="container-fluid">
+		<div class="container bg-white text-dark shadow" style="margin-top:-100px;" id="myBody">
+			{% block blok_1 %}
+			{% endblock blok_1 %}
+		</div>
+		<div class="container bg-dark text-white shadow">
+			{% block blok_2 %}
+			{% endblock blok_2 %}
+		</div>
+	</dir>
+	{% include "include/scripts.html" %}
+</body>
+</html>

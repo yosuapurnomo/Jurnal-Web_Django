@@ -2,13 +2,13 @@
 {% load static %}
 
 {% block app_css %}
-	<link rel="stylesheet" type="text/css" href="{% static "home/css/stylesHome.css" %}">
+	<link rel="stylesheet" type="text/css" href="{% static "next/css/styles_Next.css" %}">
 {% endblock app_css %}
 
 {% block header %}
 	<div class="container text-center">
-	    <h1 style="margin-top:50px;" class="display-5">{{judul}}</h1>
-	    <p class="lead">{{Subjudul}}</p>
+	    <h1 style="margin-top:50px;" class="display-5 text-info">{{judul}}</h1>
+	    <p class="lead text-info">{{Subjudul}}</p>
 	</div>
 {% endblock header %}
 
