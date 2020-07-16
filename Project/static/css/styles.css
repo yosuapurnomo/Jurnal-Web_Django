@@ -1,0 +1,13 @@
+body{
+	background: url('../img/bg1.jpg');
+	background-position: 100%;
+	position: all;
+}
+
+.jumbotron{
+	background-image: url('../img/welcome.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+
+}
