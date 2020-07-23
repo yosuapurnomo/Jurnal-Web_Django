@@ -3,5 +3,5 @@ from . import views
 
 urlpatterns = [
 	re_path(r'^$', views.home),
-	re_path(r'^next/', include('next.urls')),
+	
 ]

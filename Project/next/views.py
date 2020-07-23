@@ -10,7 +10,7 @@ def next(request):
 		['/home', 'HOME'],
 		['/', 'BACK'],
 	],
-	'content_1':'Model And Database',
+	'content_1':'URL Paramaters',
 	'content_2':'Stay Tune',
 	}
 
